@@ -28,7 +28,7 @@ class Migration(migrations.Migration):
                     default=uuid.uuid4, editable=False,
                     help_text='Unique identifier for this subscriber.',
                     unique=True, verbose_name='UUID')),
-                ('event', models.CharField(
+                ('event', models.CharField(choices=[],
                     db_index=True, help_text='Name of event to connect with',
                     max_length=190, verbose_name='event')),
                 ('url', models.URLField(
