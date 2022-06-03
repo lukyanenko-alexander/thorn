@@ -5,7 +5,7 @@ used in the Thorn functional test suite.
 """
 from __future__ import absolute_import, unicode_literals
 
-from collections import Mapping
+from collections.abc import Mapping
 
 from celery.utils.imports import symbol_by_name
 from celery.worker.control import Panel
