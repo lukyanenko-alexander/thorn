@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "thorn"
+version = "1.5.2"
+description = "Webhook framework for Django"
+authors = []
+packages = [{include = "thorn"}]
+
+[tool.poetry.dependencies]                                                                                                                                        
+python = ">=3.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"   
