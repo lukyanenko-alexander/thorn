@@ -110,7 +110,7 @@ class PyTest(TestCommand):
         sys.exit(pytest.main(self.pytest_args))
 
 setuptools.setup(
-    name=NAME,
+    name='thorn',
     version=meta['version'],
     description=meta['doc'],
     author=meta['author'],
